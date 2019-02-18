@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+	
+		<title>Checkers Description Page</title>
+	
+		<!--[if lt IE 9]>
+	
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+			</script>
+	
+		<![endif]-->
+	
+		<link rel="stylesheet" href="css/styles1.css">
+		
+	</head>
+	
+	<body>
+	
+		<h1>Checkers</h1>
+		
+		<img src="pics/checkerboard.jpg" 
+			alt="Checkerboard picture by Shutterstock"
+			style="width:50%;height:50%;">
+			
+		<p>
+			<h2>Description</h2>
+			My project will be an online Checkers application. Checkers is a 
+			simple enough game with simple rules. On a Checkerboard, checkers 
+			of opposing colors are placed on the black squares. Two players 
+			take turns moving their respective checkers diagonally forward 
+			trying to take all of the opposing players checkers. To take an 
+			opposing player's checkers, with space available, a player jumps 
+			his/her checker over the opposing player's checker diagonally. The
+			opposing player's checker is removed and the game continues. 
+			Another goal of both players is to progress their checkers across 
+			the board to the other side where they will then be promoted to 
+			Kings. A King may move and jump opposing pieces diagonally forward 
+			or backward. 
+		</p>
+		<p>
+			<h2>Model</h2>
+			<strong>Player Colors</strong>
+			<br>
+			WHITE    1
+			<br>
+			RED      2
+			<br>
+			<br>
+			There will be an 8X8 board array variable to coordinate where 
+			pieces need to go. There will be several methods to control where
+			the pieces go. Furthermore, checker piece objects will be created 
+			to make data on pieces easier to access.
+		</p>
+		<p>
+			<strong>CheckerPiece</strong>
+			There will be checker piece objects that will hold color data and
+			a bool to determine if it should be made a king or not.
+		</p>
+		<p>
+			<strong>Game</strong>
+			The Game object will contain properties that will determine whose
+			move it is, what pieces can be moved, winning conditions, etc.
+		</p>
+		
+		<a href="game_grid.html">Game Grid Page</a></br></br>
+		
+		Also called English Draughts, learn about it <a 
+			href="https://en.wikipedia.org/wiki/English_draughts"
+			target="_blank">here</a>.
+			
+		<div id="logIn">
+			Username <input type="text" id="username" class="uAndP" name="username"></input><br>
+			Password <input type="password" id="userPassword" class="uAndP" ></input><br>
+			<input type="button" id="logInBtn" class="uAndP" value="Log In"></input>
+			<input type="text" id="msgBox" class="uAndP" size="20" readonly></input>
+		</div>
+			
+		<script src="js/ajax.js"></script>
+		
+	</body>
+	
+</html>

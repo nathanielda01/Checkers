@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+	
+		<title>Checkers Game Grid</title>
+	
+		<!--[if lt IE 9]>
+	
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+			</script>
+	
+		<![endif]-->
+	
+		<link rel="stylesheet" href="css/styles.css">
+		
+	</head>
+	
+	<body>
+	
+		<h1>Checkers Game Grid</h1>
+		<h2 id="headerToVanish">To begin, click 'New Game.'</h2>
+		<div id="game">
+			<div id="tableDiv"></div>
+			<input type="button" value="New Game" id="resetButton">
+		</div>
+		
+		<div id="squareColorSelect">
+			<h3>Square Colors</h3>
+			<select id="darkSquares">
+				<option value="black" selected>Black</option>
+				<option value="green">Green</option>
+				<option value="red">Red</option>
+				<option value="purple">Purple</option>
+			</select>
+			<select id="lightSquares">
+				<option value="white" selected>White</option>
+				<option value="pink">Pink</option>
+				<option value="yellow">Yellow</option>
+				<option value="orange">Orange</option>
+			</select>
+		</div>
+		
+		<div id="coordinates">
+			Coordinates: <div id="clickCoordinates"></div>
+		</div>
+		
+		<div id="logInInfo">
+			Logged In: <input type="text" id="nameAndTime"></input>
+			<input type="button" id="clearLocalStorage" value="Clear Local Storage"></input>
+		</div>
+		
+		<div id="gameChoices">
+			Checker Game Choices<br>
+			<input type="button" id="threeRowBtn" value="Three Row Checkers"><br>
+			<input type="button" id="twoRowBtn" value="Two Row Checkers"><br>
+			<input type="button" id="oneRowBtn" value="One Row Checkers"><br>
+		</div>
+		<div id="parsedData">Parsed XML Data</div>
+		
+		<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/phbavRYYjAw?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+		
+		<div id="checkpoint">
+			<a href="checkpoint.html">Checkpoint</a>
+		</div>
+		
+		<script src="js/model.js"></script>
+		<script src="js/view.js"></script>
+		
+	</body>
+	
+</html>

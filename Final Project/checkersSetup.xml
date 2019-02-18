@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	<setups>
+		<board id="threeRow">
+			<row>20202020</row>
+			<row>02020202</row>
+			<row>20202020</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>01010101</row>
+			<row>10101010</row>
+			<row>01010101</row>			
+		</board>
+		<board id="twoRow">
+			<row>20202020</row>
+			<row>02020202</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>10101010</row>
+			<row>01010101</row>
+		</board>
+		<board id="oneRow">
+			<row>20202020</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>00000000</row>
+			<row>01010101</row>
+		</board>
+	</setups>

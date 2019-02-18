@@ -1,0 +1,16 @@
+/*			GAME DESCRIPTION STYLES			*/
+
+h1 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+	border: 3px solid navy;
+}
+
+p {
+	font-family: Consolas;
+	text-align: justify;
+}
